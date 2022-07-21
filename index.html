@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="meal-content" id="meal-content">
+            <h1>Find Meal For Favourite</h1>
+            <p class="p1">Real food doesn't have ingredients, real food is ingredients.</p>
+            <p class="p1">-Jamie Oliver</p>
+            <div id="searchinput" class="searchinput search">
+                <input type="text" id="search" placeholder="Enter Food Name">
+                <button id="search-btn" class="btn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div id="meal-item" class="meal-item">
+                <h2>Your Search Results</h2>
+                <div id="meals" class="meal">
+                    <div id="recipe-item" class="recipe-item">
+                        <img src="/image/pancake.jpg" alt="">
+                        <h3 class="foodname">Pancake</h3>
+                        <a href="#" id="recipe-btn" class="recipe-btn">Get Recipe</a>
+                    </div>
+                    <div class="recipe-item">
+                        <img src="/image/pancake.jpg" alt="">
+                        <h3 class="foodname">Pancake</h3>
+                        <a href="#"class="recipe-btn">Get Recipe</a>
+                    </div>
+                    <div class="recipe-item">
+                        <img src="/image/pancake.jpg" alt="">
+                        <h3 class="foodname">Pancake</h3>
+                        <a class="recipe-btn">Get Recipe</a>
+                    </div>
+                    <div class="recipe-item">
+                        <img src="/image/pancake.jpg" alt="">
+                        <h3 class="foodname">Pancake</h3>
+                        <a href="#" class="recipe-btn">Get Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="meal-detail" class="meal-detail">
+                <button type="button" class="btn recipe-close-btn" id="reciep-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div id="title" class="title">
+                    <h1>Pad See Ew</h1>
+                    <p class="recipe-cata">Chicken</p>
+                </div>
+                <div id="recipe-instruct" class="recipe-instruct">
+                    <h2>Instructions:</h2>
+                </div>
+                <div id="para" class="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Totam perspiciatis doloribus necessitatibus maxime, in 
+                        sint architecto porro odio odit amet, repellat corporis 
+                        saepe iste facere natus. Earum nemo est dolores recusandae 
+                        voluptate laudantium, deserunt sunt quibusdam dolor mollitia 
+                        blanditiis quaat cumque aliquam, doloremque dolorum 
+                         beatae corrupti aliquid possimus ipsa soluta quaerat nulla facilis 
+                         commodi nisi? Praesentium saepe nihil odio blanditiis asperiores quidem c
+                         orrupti dolorem? Accusantium aspernatur quas ex, deleniti excepturi inventore,
+                          assumenda nostrum et dicta architecto tempore tenetur veniam distinctio, voluptate
+                           itaque vel possimus minus impedit sequi rerum nulla eaque! Earum, sunt ducimus nobis magnam pariatur possimus adipisci itaque reiciendis eligendi quis temporibus excepturi voluptatum voluptates quae, repudiandae sed, aspernatur suscipit vitae.</p>
+                </div>
+                <div id="meal-img" class="meal-img">
+                    <img src="/image/pancake.jpg" alt="">
+                </div>
+                <div id="video-watch" class="video-watch">
+                    <a href="#">Watch Video</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js.js"></script>
+</body>
+</html>
